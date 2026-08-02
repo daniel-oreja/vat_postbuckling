@@ -19,6 +19,16 @@ The code implements a fully automated pipeline that:
 
 ## Repository structure
 
+```
+├── lhs_pipeline/          # LHS sampling, Bézier path generation, .fem file creation
+├── fem_automation/        # Scripts to run OptiStruct and parse results (buckling + postbuckling)
+├── pce_sobol/             # Polynomial Chaos Expansion, PC-Kriging, Sobol indices (UQLab)
+├── pareto/                # Pareto dominance analysis and NSGA-II surrogate-based optimisation
+├── manufacturability/     # Minimum steering radius calculation and AFP scenario assessment
+├── postprocessing/        # Figures and tables generation (MATLAB plotting scripts)
+└── README.md
+```
+
 ## Requirements
 
 - MATLAB R20XX or later
@@ -43,9 +53,7 @@ The raw simulation output files (`.fem`, `.out`, `.h3d`) are not included in thi
 
 If you use this code or refer to this work, please cite:
 
-> [Tu nombre]. "[Título completo de tu TFG]." Bachelor's/Master's Thesis, [Universidad], 2026.
-
-## License
+> Daniel Oreja González. "Post-buckling Analysis of Tow-Steered Composites Using Finite Elements Method." Bachelor's Thesis, uc3m, 2026.
 
 ## License
 
