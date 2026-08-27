@@ -25,10 +25,10 @@ The repository contains two complementary pieces of code:
 │
 ├── 02_analysis/
 │   ├── main_lhs.m                           # [OPTIONAL] Generates the 160-sample LHS and runs OptiStruct for all of them
-│   ├── analyze_results.m                       # MAIN SCRIPT: statistics + all figures
-│   ├── pareto.m                       # MAIN SCRIPT: Pareto dominance analysis
-│   ├── results_buckling.csv                    # Included: Kcr, eigenvalues and design variables for all 160 samples
-│   └── results_postbuckling.csv  # Included: postbuckling curve points for all samples
+│   ├── analyze_results.m                    # MAIN SCRIPT: statistics + all figures
+│   ├── pareto.m                             # MAIN SCRIPT: Pareto dominance analysis
+│   ├── results_buckling.csv                 # Included: Kcr, eigenvalues and design variables for all 160 samples
+│   └── results_postbuckling.csv             # Included: postbuckling curve points for all samples
 │
 └── README.md
 ```
