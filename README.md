@@ -35,9 +35,9 @@ The repository contains two complementary pieces of code:
 
 ## Requirements
 
-- MATLAB (R2021a or later recommended; the scripts use `readtable`, `contains`, `corr`, `polyfit`, `sgtitle`)
-- Statistics and Machine Learning Toolbox (used by `analyze_results.m` for the Pearson/Spearman `corr` sensitivity analysis)
-- Altair OptiStruct (student or full license) — **only** required for `01_single_case_validation/run_single_case.m` and `02_doe_and_postprocessing/run_lhs_doe.m`. **Not** required to reproduce the thesis figures/statistics from the included CSVs.
+- MATLAB (R2021a or later recommended) 
+- Statistics and Machine Learning Toolbox 
+- Altair OptiStruct (student or full license) — **only** required for `01_validation/validation_case.m` and `02_analysis/main_lhs.m`. **Not** required to reproduce the thesis figures and statistics from the included CSVs.
 
 ## How to reproduce the results
 
