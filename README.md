@@ -1,4 +1,4 @@
-# Postbuckling Analysis and Design Space Exploration of Tow-Steered VAT Composite Plates
+# Post-buckling Analysis of Tow-Steered Composites Using Finite Elements Method
 
 This repository contains the MATLAB and OptiStruct scripts developed for my Bachelor's Thesis (TFG) on the buckling and postbuckling behaviour of Variable Angle Tow (VAT) composite plates with cubic Bézier fibre paths, manufactured through Automated Fibre Placement (AFP).
 
